@@ -211,9 +211,15 @@
 
     @media (max-width: 768px) {
       .navbar {
-        width: 50px; height: 50px;
-        border-radius: 50%; padding: 0;
-        flex-direction: column; overflow: hidden;
+        left: auto;
+        transform: none;
+        right: 20px;
+        width: 50px; 
+        height: 50px;
+        border-radius: 50%; 
+        padding: 0;
+        flex-direction: column; 
+        overflow: hidden;
       }
       
       
@@ -222,6 +228,9 @@
         border-radius: 24px;
         padding: 20px 20px 30px 20px;
         background: rgba(10, 10, 10, 0.95);
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
       }
 
       .menu-toggle { display: flex; z-index: 2; margin: 15px 0; }
